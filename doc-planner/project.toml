@@ -1,0 +1,11 @@
+name = "doc-plannerd"
+enable_filestore = false
+enable_gcs_fuse = false
+enable_postgres = false
+enable_mysql = false
+enable_api_gateway = false
+enable_slack = false
+
+[metadata]
+  owner = "jireh.kang@applied.co"
+  description = "Go + React hello world app"

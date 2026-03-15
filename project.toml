@@ -1,0 +1,19 @@
+name = "doc-planner"
+enable_filestore = false
+enable_gcs_fuse = false
+enable_postgres = false
+enable_mysql = true
+enable_api_gateway = false
+enable_slack = true
+[cloudrun]
+cpu = "2"
+memory = "2Gi"
+gpu_count = 0
+min_instances = 0
+max_instances = 1
+port = 0
+
+[metadata]
+owner = "jireh.kang@applied.co"
+description = "Vehicle OS documentation planner app"
+maintainers = ["jireh.kang@applied.co"]
